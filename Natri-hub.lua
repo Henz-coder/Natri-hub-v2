@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henz-coder/Natri-hub-v2/refs/heads/main/Natri-hub.lua')))()
 
 local Window = OrionLib:MakeWindow({Name = "Natri-hub", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 

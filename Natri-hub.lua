@@ -1,27 +1,28 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
 
 local Window = OrionLib:MakeWindow({Name = "Natri-hub", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
 	Name = "Scripts Mới",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 
 local Tab2 = Window:MakeTab({
 	Name = "Mod Client",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 
 local Tab3 = Window:MakeTab({
 	Name = "Mod Game",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Tab4 = Window:MakeTab({
 	Name = "Script Cũ",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 Tab3:AddButton({
 	Name = "RTX",
@@ -210,6 +211,6 @@ Tab4:AddButton({
 Tab4:AddButton({
 	Name = "Mukuro Hub",
 	Callback = function()
-        loaloadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/BloxFruit.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/BloxFruit.lua"))()
   	end    
 })

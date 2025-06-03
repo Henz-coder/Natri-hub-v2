@@ -4,24 +4,24 @@ local Window = OrionLib:MakeWindow({Name = "Natri-hub", HidePremium = false, Sav
 local Tab = Window:MakeTab({
 	Name = "Scripts Mới",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+	PremiumOnly = true
 })
 
 local Tab2 = Window:MakeTab({
 	Name = "Mod Client",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+	PremiumOnly = true
 })
 
 local Tab3 = Window:MakeTab({
 	Name = "Mod Game",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+	PremiumOnly = true
 })
 local Tab4 = Window:MakeTab({
 	Name = "Script Cũ",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+	PremiumOnly = true
 })
 Tab3:AddButton({
 	Name = "RTX",
